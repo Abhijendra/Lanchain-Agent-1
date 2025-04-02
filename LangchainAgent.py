@@ -3,7 +3,7 @@ import json
 
 def google_search(query):
     """Fetch search results from Google using SerpAPI."""
-    API_KEY = "e6bc0a43ed93d96f8923dde551b861a2176d8b8953c436406305dc32c878027b"  # Replace with your SerpAPI key
+    API_KEY = "you_api"  # Replace with your SerpAPI key
     url = "https://serpapi.com/search"
     params = {
         "q": query,
